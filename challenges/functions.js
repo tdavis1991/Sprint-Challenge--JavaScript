@@ -40,7 +40,8 @@ consume("Mary","Poppins", greeting); // Hello Mary Poppins, nice to meet you!
 
 // Explain in your own words why `nestedfunction()` can access the variable `internal`.
 
-// Explanation: Since the 'internal' is inside the same scope as 'nestedFunction()' it has access to that variable. 'myFunction would not have access to anything inside of 'nestedFunction()' because it is one level down. You have access outside a function but you do not have access inside of another function. 
+// Explanation: 
+// Since the 'internal' is inside the same scope as 'nestedFunction()' it has access to that variable. 'myFunction would not have access to anything inside of 'nestedFunction()' because it is a level down. You have access outside a function but you do not have access inside of another function. 
 
 
 const external = "I'm outside the function";

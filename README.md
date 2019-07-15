@@ -30,26 +30,46 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
+    The difference between '.forEach' and '.map' is that 'forEach' doesn't return anything and 'map' returns a brand new array.
+
 2. What is the difference between a function and a method?
+
+    Every method is a function, but not all functions are methods. A method is value inside of the an object that is a assigned to key.
 
 3. What is closure?
 
+    Closure is the ability to reach outside of a scope to access other values, but you can not reach inside a scope to access values. 
+
 4. Describe the four rules of the 'this' keyword.
 
+    *Window Binding
+        When window binding you are using the 'this' keyword globally, by doing this you are refering to every object in js.
+
+    *Implicit Binding
+        Implicit binding is when you are using the 'this' keyword in a local scope. It only refers to objects inside of that scope.
+
+    *Explicit Binding
+        Explicit binding is when you are passing an object into a function. The 'this' keyword will become that function. Apply, call and bind uses explcit binding.
+
+    *New Binding 
+        When using the 'this' keyword for new binding you are normally using it to create a new object from a constructor. The constructor places the values that you pass into using the 'this' keyword and returns a new object with the values assigned to the keys that are in the constructor.
+    
 5. Why do we need super() in an extended class?
+
+    We use 'super()' to pass in the attributes of the parent constructor.
 
 ## Project Set up
 
 Follow these steps to set up and work on your project:
 
-- [ ] Create a forked copy of this project.
-- [ ] Add PM as collaborator on Github.
-- [ ] Clone your OWN version of Repo (Not Lambda's by mistake!).
-- [ ] Create a new Branch on the clone: git checkout -b `<firstName-lastName>`.
+- [x] Create a forked copy of this project.
+- [] Add PM as collaborator on Github.
+- [x] Clone your OWN version of Repo (Not Lambda's by mistake!).
+- [x] Create a new Branch on the clone: git checkout -b `<firstName-lastName>`.
 - [ ] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
-- [ ] You are now ready to build this project with your preferred IDE
-- [ ] Implement the project on your Branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
+- [x] You are now ready to build this project with your preferred IDE
+- [x] Implement the project on your Branch, committing changes regularly.
+- [x] Push commits: git push origin `<firstName-lastName>`.
 
 Follow these steps for completing your project:
 

@@ -30,3 +30,24 @@ class CuboidMaker {
   // Test your volume and surfaceArea methods by uncommenting the logs below:
   console.log(cuboid.volume()); // 100
   console.log(cuboid.surfaceArea()); // 130
+
+  class CubeMaker extends CuboidMaker {
+      constructor(cuboidAttr){
+          super(cuboidAttr);
+      }
+      volume() {
+          return Math.pow(this.length, 3)
+      }
+      surfaceArea() {
+          return Math.pow(this.length, 2) * 6
+      }
+  };
+
+const cube = new CubeMaker ({
+    length: 7,
+    width: 7,
+    height: 7
+});
+
+console.log(cube.volume());
+console.log(cube.surfaceArea());
