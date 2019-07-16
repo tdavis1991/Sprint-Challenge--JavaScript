@@ -50,7 +50,7 @@ console.log(tyrannosaurus.period);
 tyrannosaurus.roar = function() {
   return 'RAWERSRARARWERSARARARRRR!'
 }
-console.log(tyrannosaurus.roar);
+console.log(tyrannosaurus.roar());
 
 
 // ==== Arrays ====
